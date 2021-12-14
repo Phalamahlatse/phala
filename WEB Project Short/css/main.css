@@ -1,0 +1,98 @@
+/*coding for the navigation bar for bigger devices start here*/
+.computer-li{
+    margin-left:20px;
+}
+.about-card{
+    margin-top:20px;
+}
+.phone-navigation-list{
+    position:absolute;
+    top:70px;
+    left:0;
+    right:0;
+    border-top:solid 1px white;
+    text-align:center;
+    display:none;
+}
+.phone-li{
+    line-height:50px !important;
+    list-style:none
+}
+.phone-li a{
+    text-decoration:none;
+}
+/* coding for the landing page start here*/
+.landing-page{
+    background-color:rgb(9, 10, 47) !important;
+    display:none;
+}
+.welcome-caption,.computer-navigation-bar,.phones-navigation-bar{
+    margin-top:-100px;
+}
+.multimedia-caption,.button-wrapper-one{
+    margin-left:-700px;
+    margin-top:0px;
+}
+@media screen and (min-width:400px) and (max-width:1500px){
+    .multimedia-caption{
+        margin-left : -2000px;
+    }
+    .different-wrapper{
+        margin-right:-1700px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1500px){
+    .card{
+        height:260px;
+    }
+    .different-card{
+       height:360px;
+    }
+    .contact-card{
+        height:170px;
+    }
+    .contact-font{
+        font-size:15px !important;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1000px){
+    .card{
+        height:279px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1500px){
+    .about-card{
+        height:100px;
+        margin-top:10px;
+    }
+    .different-card{
+        height:360px;
+    }
+}
+.services-wrapper,.button-wrapper-two{
+    margin-right:-1700px;
+    margin-top:0px;
+    background-color: #FAFAFA;
+}
+.services-li{
+    list-style:none;
+}
+.different-wrapper{
+    background-color:#FAFAFA;
+    margin-right:-1700px;
+}
+/* coding for the landing page ended here*/
+
+/* portfolio section coding start here*/
+    .portfolio-wrapper{
+       margin-left:-600px;
+       margin-top:-320px !important;
+    }
+/* portfolio section coding ended here*/
+
+/*coding for the footer start here*/
+div div a i{
+    margin-left:10px !important;
+}
+/*coding for the footer ended here*/
